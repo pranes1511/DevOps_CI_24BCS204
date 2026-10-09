@@ -15,7 +15,7 @@ This project demonstrates version control and continuous integration using Git, 
 - README.md
 - .gitignore
 
-## Features
+## Features - Main Branch
 - Addition and subtraction
 - Automated Python unit testing
 - Git version control

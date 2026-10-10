@@ -16,7 +16,7 @@ class HotelBooking:
         if hotel not in self.hotels:
             return "Hotel not found"
 
-        if days <= 0:
+        if not isinstance(days, int) or days <= 0:
             return "Invalid number of days"
 
         total = self.hotels[hotel] * days

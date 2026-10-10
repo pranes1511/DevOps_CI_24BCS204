@@ -3,12 +3,13 @@
 
 ## Tourist Guide and Hotel Booking System
 
-A simple Python application demonstrating hotel listings,
-booking calculations, and input validation.
+A simple Python application for managing hotel listings
+and calculating booking costs.
 
 ## Features
-- Display hotel prices
-- Book a hotel
+- Display available hotels
+- Show prices per night
+- Book hotels
 - Calculate booking totals
 - Validate hotel availability
 

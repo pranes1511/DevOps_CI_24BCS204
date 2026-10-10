@@ -33,3 +33,4 @@ Hotel booking requests are confirmed after validation.
 ## Tourist Guide Feature
 - Display popular tourist destinations.
 - Help users explore available destinations.
+- Main branch documentation updated for Activity 2.

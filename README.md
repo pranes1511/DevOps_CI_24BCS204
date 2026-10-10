@@ -34,3 +34,10 @@ Hotel booking requests are confirmed after validation.
 - Display popular tourist destinations.
 - Help users explore available destinations.
 - Main branch documentation updated for Activity 2.
+
+## GitHub Pull Request Workflow
+
+- New features are developed in separate feature branches.
+- Changes are committed and pushed to GitHub.
+- Pull Requests are reviewed before merging into main.
+- The updated main branch is pulled and verified locally.

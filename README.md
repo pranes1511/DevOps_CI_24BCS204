@@ -41,3 +41,7 @@ Hotel booking requests are confirmed after validation.
 - Changes are committed and pushed to GitHub.
 - Pull Requests are reviewed before merging into main.
 - The updated main branch is pulled and verified locally.
+
+## Pull Request Demonstration
+- Feature changes are committed separately.
+- Changes are reviewed before merging into main.    

@@ -26,3 +26,5 @@ python src/hotel_booking.py
 python -m unittest discover -s tests -v
 - Includes hotel listings for Coimbatore and Madurai.
 - Version control workflow verified using Git and GitHub.
+## Booking Status
+Hotel booking requests are awaiting confirmation.

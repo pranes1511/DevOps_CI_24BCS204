@@ -30,3 +30,5 @@ python -m unittest discover -s tests -v
 ## Tourist Guide Feature
 - Display popular tourist destinations.
 - Help users explore available destinations.
+## Booking Status
+Hotel booking requests are confirmed after validation.

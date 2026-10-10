@@ -24,3 +24,4 @@ python src/hotel_booking.py
 
 ## Run tests
 python -m unittest discover -s tests -v
+- Includes hotel listings for Coimbatore and Madurai.

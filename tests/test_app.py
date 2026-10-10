@@ -1,26 +1,37 @@
 
 import unittest
-import sys
-from pathlib import Path
 
-sys.path.insert(
-    0, str(Path(__file__).resolve().parents[1] / "src")
+from src.app import (
+    search_destinations,
+    search_hotels,
+    calculate_total,
 )
 
-from app import add, subtract
 
-class TestApp(unittest.TestCase):
-    def test_add(self):
-        self.assertEqual(add(10, 5), 15)
+class TouristGuideTests(unittest.TestCase):
 
-    def test_subtract(self):
-        self.assertEqual(subtract(10, 5), 5)
+    def test_search_destinations(self):
+        self.assertIn(
+            "Marina Beach",
+            search_destinations("Chennai")
+        )
 
-    def test_add_zero(self):
-        self.assertEqual(add(0, 5), 5)
+    def test_search_hotels(self):
+        self.assertEqual(
+            len(search_hotels("Ooty")),
+            1
+        )
 
-    def test_add_negative(self):
-        self.assertEqual(add(-2, -3), -5)
+    def test_calculate_total(self):
+        self.assertEqual(
+            calculate_total(1500, 3),
+            4500
+        )
+
+    def test_invalid_duration(self):
+        with self.assertRaises(ValueError):
+            calculate_total(1500, 0)
+
 
 if __name__ == "__main__":
     unittest.main()

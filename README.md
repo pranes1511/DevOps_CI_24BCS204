@@ -44,4 +44,4 @@ Hotel booking requests are confirmed after validation.
 
 ## Pull Request Demonstration
 - Feature changes are committed separately.
-- Changes are reviewed before merging into main.    
+- Changes are reviewed before merging into main.

@@ -1,3 +1,4 @@
+
 pipeline {
     agent any
 
@@ -10,13 +11,13 @@ pipeline {
 
         stage('Check Python') {
             steps {
-                bat 'python --version'
+                bat '"C:\\Users\\PRANES T\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" --version'
             }
         }
 
         stage('Run Unit Tests') {
             steps {
-                bat 'python -m unittest discover -s tests -v'
+                bat '"C:\\Users\\PRANES T\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" -m unittest discover -s tests -v'
             }
         }
     }

@@ -42,3 +42,41 @@ PS>Stop-Transcript
 Windows PowerShell transcript end
 End time: 20261013225605
 **********************
+**********************
+Windows PowerShell transcript start
+Start time: 20261013230950
+Username: LAPTOP-ERK4OU6T\PRANES T
+RunAs User: LAPTOP-ERK4OU6T\PRANES T
+Configuration Name: 
+Machine: LAPTOP-ERK4OU6T (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 32344
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\git_execution.log
+PS C:\Users\PRANES T\OneDrive\Desktop\DevOps_CI_24BCS204> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\PRANES T\OneDrive\Desktop\DevOps_CI_24BCS204> git branch -a
+  remotes/origin/feature-24BCS204
+  remotes/origin/feature-pr-24BCS204
+  remotes/origin/feature-tourist-guide-24BCS204
+  remotes/origin/main
+PS C:\Users\PRANES T\OneDrive\Desktop\DevOps_CI_24BCS204> git log --oneline --graph --all -10
+
+PS C:\Users\PRANES T\OneDrive\Desktop\DevOps_CI_24BCS204> git remote -v
+
+PS C:\Users\PRANES T\OneDrive\Desktop\DevOps_CI_24BCS204> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20261013231014
+**********************

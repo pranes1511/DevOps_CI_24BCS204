@@ -37,3 +37,5 @@ Activity 1: Git repository and remote push verification.
 - Show the price per night.
 - Calculate the total booking cost.
 - Check hotel availability.
+
+Bug fix: Hotel availability is validated before confirming a booking.

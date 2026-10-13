@@ -38,6 +38,4 @@ Activity 1: Git repository and remote push verification.
 - Calculate the total booking cost.
 - Check hotel availability.
 
-Bug fix: Hotel availability is validated before confirming a booking.
-
-Project status: Pending review.
+Project status: Feature approved. Required fixes have been reviewed.

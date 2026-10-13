@@ -39,3 +39,10 @@ Activity 1: Git repository and remote push verification.
 - Check hotel availability.
 
 Project status: Feature approved. Required fixes have been reviewed.
+
+## Tourist Guide Feature Update
+
+- Provide hotel information by city.
+- Validate hotel availability before booking.
+- Calculate the total cost based on the number of nights.
+- Display a booking confirmation after a successful reservation.

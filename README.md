@@ -39,3 +39,5 @@ Activity 1: Git repository and remote push verification.
 - Check hotel availability.
 
 Bug fix: Hotel availability is validated before confirming a booking.
+
+Project status: Pending review.

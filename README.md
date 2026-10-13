@@ -28,3 +28,5 @@ python src/hotel_booking.py
 python -m unittest discover -s tests -v
 
 The system provides hotel listings, availability checks, and booking cost calculations.
+
+Activity 1: Git repository and remote push verification.

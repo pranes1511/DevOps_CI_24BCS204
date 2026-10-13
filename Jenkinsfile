@@ -1,4 +1,3 @@
-
 pipeline {
     agent any
 
@@ -6,14 +5,14 @@ pipeline {
         stage('Checkout') {
             steps {
                 checkout scm
-                echo 'Source code checked out successfully.'
+                echo 'Checkout completed'
             }
         }
 
         stage('Build') {
             steps {
                 bat '"C:\\Users\\PRANES T\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" -m compileall -q src tests'
-                echo 'Build completed successfully.'
+                echo 'Build completed'
             }
         }
 
@@ -25,20 +24,14 @@ pipeline {
 
         stage('Result') {
             steps {
-                echo 'Build and test stages completed successfully!'
+                echo 'Pipeline completed successfully'
             }
         }
-    }
 
-    post {
-        success {
-            echo 'PIPELINE RESULT: SUCCESS'
-        }
-        failure {
-            echo 'PIPELINE RESULT: FAILURE'
-        }
-        always {
-            echo 'Jenkins pipeline execution finished.'
+        stage('Finish') {
+            steps {
+                echo 'Jenkins pipeline finished'
+            }
         }
     }
 }
